@@ -11,7 +11,7 @@ Usage: go run certNamesLookup.go -domain google.com
 
 
 ## SSLScraper
-- Extract Common names from SSL certificates by providing a file containing ip:port format.
+- Fast concurrent SSL Scraper that Extract Common names from SSL certificates by providing a file containing ip:port format.
 ```
 Usage: go run SSLScraper.go -file <filename> 
 ```
