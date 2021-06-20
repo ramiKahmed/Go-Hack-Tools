@@ -3,8 +3,16 @@ lightweight tools  written in Golang to aid in the pentesting &amp; red teaming 
 
 
 ## certNamesLookup
-- retrieves hostnames that are related to the main company ( the domain provided ) included in the SSL certificates. ( Assets Discovery )
+- Retrieves hostnames that are related to the main company ( the domain provided ) included in the SSL certificates. ( Assets Discovery )
 ```
 
 Usage: go run certNamesLookup.go -domain google.com 
 ```
+
+
+## SSLScraper
+- Extract Common names from SSL certificates by providing a file containing ip:port format.
+```
+Usage: go run SSLScraper.go -file <filename> 
+```
+
