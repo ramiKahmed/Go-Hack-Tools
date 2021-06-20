@@ -15,4 +15,5 @@ Usage: go run certNamesLookup.go -domain google.com
 ```
 Usage: go run SSLScraper.go -file <filename> 
 ```
+![](images/SSLScraper.png)
 
